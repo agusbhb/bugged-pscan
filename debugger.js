@@ -17,6 +17,10 @@ class Ejercicio {
 
     };
 
+    diff0(){
+        return this.g.filter(item => item != 0).length;
+    }
+
     cmp(x, y){
         if (x > y) return 1;
         else if (x < y) return -1;
@@ -61,3 +65,4 @@ class Ejercicio {
 
 let ej = new Ejercicio();
 let res = ej.prueba();
+console.log(ej.diff0());
