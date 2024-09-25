@@ -17,7 +17,7 @@ class Ejercicio {
 
     };
 
-    diff0(){
+    diferenteDe0(){
         return this.g.filter(item => item != 0).length;
     }
 
@@ -65,4 +65,4 @@ class Ejercicio {
 
 let ej = new Ejercicio();
 let res = ej.prueba();
-console.log(ej.diff0());
+console.log(ej.diferenteDe0());
